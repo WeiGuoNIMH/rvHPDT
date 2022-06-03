@@ -1,0 +1,16 @@
+import(gtools) 
+importFrom("stats", "pnorm")
+importFrom("utils", "read.table", "write.table") 
+export(convert.factors.to.strings.in.dataframe, 
+       mydaoshu,
+       rchild,
+       rvPDT.test, 
+       fullPedigree,
+       mypaste,
+       rhapPDT,
+       rvPDT.test.sub,
+       HapMendlianCheck,
+       randomPDT,
+       rvPDT.test.permu,
+       whap.prehap 
+      ) 

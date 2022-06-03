@@ -1,0 +1,13 @@
+Package: rvHPDT
+Type: Package
+Title: Calling Haplotype-Based and Variant-Based Pedigree Disequilibrium Test for Rare Variants in Pedigrees
+Version: 4.0
+Date: 2022-5-9
+Author: Wei Guo <wei.guo3@nih.gov>
+Maintainer: Wei Guo <wei.guo3@nih.gov>
+Depends: gtools, R(>= 2.15.0) 
+Imports: 
+    stats, 
+    utils 
+Description: To detecting rare variants for binary traits using general pedigrees, the pedigree disequilibrium tests are proposed by collapsing rare haplotypes/variants with/without weights. To run the test, MERLIN is needed in Linux for haplotyping.
+License: GPL (>= 2)
